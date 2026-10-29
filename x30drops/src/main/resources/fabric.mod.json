@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "x30drops",
+  "version": "${version}",
+  "name": "X30 Drops",
+  "description": "Everything that drops items (blocks, mobs, fishing...) drops 30 times more. Multiplier is configurable in config/x30drops.properties.",
+  "authors": ["X30 Drops contributors"],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/",
+    "issues": "https://github.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/x30drops/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.x30drops.X30Drops"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
